@@ -8,10 +8,12 @@ import Insights from "./component/Insights.jsx";
 import Partners from "./component/Partners.jsx";
 import Services from "./component/Services.jsx";
 import Footer from "./component/Footer.jsx";
+import Navbar from "./component/Navbar.jsx";
 
 const App = () => {
   return (
     <Router>
+      <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />

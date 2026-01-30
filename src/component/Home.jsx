@@ -6,36 +6,47 @@ const Home = () => {
 
       {/* ================= HERO SECTION ================= */}
       <section className="min-h-screen flex items-center justify-center bg-gradient-to-b from-white to-indigo-50">
-        <div className="max-w-6xl mx-auto px-6 text-center">
+  <div className="max-w-6xl mx-auto px-6 text-center">
 
-          <h1 className="text-4xl md:text-6xl font-extrabold text-gray-900 leading-tight">
-            Transform Your Business with{" "}
-            <span className="bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent">
-              Intelligent AI
-            </span>
-          </h1>
+    {/* Badge */}
+    <div className="flex justify-center mb-6">
+      <span className="inline-flex items-center gap-2 px-6 py-2 rounded-full 
+        bg-gradient-to-r from-indigo-100 to-purple-100 
+        text-blue-600 font-medium text-sm md:text-base shadow-sm">
+        ✦ AI-Powered Enterprise Solutions
+      </span>
+    </div>
 
-          <p className="mt-8 text-lg md:text-xl text-gray-600 leading-relaxed max-w-3xl mx-auto">
-            Leading the future of enterprise AI with cutting-edge agentic
-            applications, fine-tuned foundational models, and comprehensive data
-            engineering solutions.
-          </p>
+    {/* Main Heading */}
+    <h1 className="text-4xl md:text-6xl font-extrabold text-gray-900 leading-tight">
+      Transform Your Business with{" "}
+      <span className="bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent">
+        Intelligent AI
+      </span>
+    </h1>
 
-          <div className="mt-12 flex flex-col sm:flex-row justify-center gap-6">
-            <button className="px-8 py-4 text-lg font-semibold text-white rounded-lg bg-gradient-to-r from-blue-500 to-purple-600 hover:opacity-90 transition">
-              Explore Our Services →
+    {/* Subtitle */}
+    <p className="mt-8 text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">
+      Leading the future of enterprise AI with cutting-edge agentic
+      applications, fine-tuned foundational models, and comprehensive
+      data engineering solutions.
+    </p>
+
+    <div className="mt-12 flex justify-center gap-6 flex-wrap">
+            <button className="px-8 py-4 rounded-xl bg-gradient-to-r from-blue-600 to-purple-600 text-white font-semibold shadow hover:scale-105 transition">
+              Explore Our Services
             </button>
-
-            <button className="px-8 py-4 text-lg font-semibold text-blue-600 rounded-lg border-2 border-blue-500 hover:bg-blue-50 transition">
+            <button className="px-8 py-4 rounded-xl border-2 border-blue-600 text-blue-600 font-semibold hover:bg-blue-50 transition">
               Schedule a Consultation
             </button>
           </div>
 
-        </div>
-      </section>
+  </div>
+</section>
+
 
       {/* ================= STATS SECTION ================= */}
-      <section className="bg-gradient-to-r from-indigo-50 to-purple-50 py-20">
+      <section className="bg-gradient-to-r from-indigo-50 to-purple-50 py-12">
         <div className="max-w-6xl mx-auto px-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10 text-center">
 
           <div>
@@ -185,10 +196,10 @@ const Home = () => {
 
 
 {/* ================= ADDITIONAL SERVICES ================= */}
-<section className="py-24 bg-white">
+<section className="py-12 bg-white">
   <div className="max-w-7xl mx-auto px-6">
 
-    <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
 
       {/* Card 1 */}
       <div className="bg-white rounded-2xl p-8 shadow-md hover:shadow-xl transition">
@@ -296,7 +307,7 @@ const Home = () => {
 
 
 {/* ================= INDUSTRIES WE TRANSFORM ================= */}
-<section className="py-28 bg-gray-50">
+<section className="py-12 bg-gray-50">
   <div className="max-w-7xl mx-auto px-6 text-center">
 
     {/* Heading */}
@@ -419,7 +430,7 @@ const Home = () => {
 
 
 {/* ================= SUCCESS STORIES ================= */}
-<section className="py-28 bg-white text-center">
+<section className="py-12 bg-white text-center">
   <div className="max-w-3xl mx-auto px-6">
 
     <h2 className="text-4xl font-bold text-gray-900 mb-4">
@@ -644,7 +655,7 @@ const Home = () => {
 
 
 {/* ================= CTA SECTION ================= */}
-<section className="py-32 bg-gradient-to-r from-blue-600 to-purple-600">
+<section className="py-12 bg-gradient-to-r from-blue-600 to-purple-600">
   <div className="max-w-4xl mx-auto text-center px-6">
 
     <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">

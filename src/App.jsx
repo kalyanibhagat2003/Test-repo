@@ -7,6 +7,7 @@ import IndustrySolutions from "./component/IndustrySolutions.jsx";
 import Insights from "./component/Insights.jsx";
 import Partners from "./component/Partners.jsx";
 import Services from "./component/Services.jsx";
+import Footer from "./component/Footer.jsx";
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
         <Route path="/partners" element={<Partners />} />
         <Route path="/services" element={<Services />} />
       </Routes>
+      < Footer />
     </Router>
   );
 };
